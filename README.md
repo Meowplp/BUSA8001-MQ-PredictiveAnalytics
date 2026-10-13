@@ -6,6 +6,14 @@ Our objective was to predict listed car prices using vehicle attributes. The pro
 
 **Outcome:** Our team achieved **1st place on the Kaggle competition leaderboard** and was recognised as the **highest achiever in the subject**.
 
+The competition evaluated submissions using **Mean Absolute Percentage Error (MAPE)**:
+
+$$
+\mathrm{MAPE}=\frac{100}{n}\sum_{i=1}^{n}\left|\frac{y_i-\hat{y}_i}{y_i}\right|
+$$
+
+Lower MAPE indicates more accurate predictions, for nonzero actual prices.
+
 ## Problem and Data
 
 Accurately estimating a vehicle's listed price is a regression problem. Vehicle records can contain missing, inconsistent, or otherwise challenging inputs, making data quality an important part of the modelling process.
@@ -104,10 +112,4 @@ Additional engineered fields included `depreciation_rate`, `value_per_hp`, `powe
 - **1st place** in the ASBA Predictive Analytics Competition S2 (2025) on Kaggle.
 - **Highest achiever** in the subject, as reported by the project team.
 
-The competition evaluated submissions using **Mean Absolute Percentage Error (MAPE)**:
 
-$$
-\mathrm{MAPE}=\frac{100}{n}\sum_{i=1}^{n}\left|\frac{y_i-\hat{y}_i}{y_i}\right|
-$$
-
-Lower MAPE indicates more accurate predictions, for nonzero actual prices.
